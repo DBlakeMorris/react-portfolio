@@ -345,4 +345,27 @@ export default function ReactPortfolio() {
                 <Section id="skills" title="Skills">
                   <motion.div
                     className="bg-gray-900 bg-opacity-50 p-6 rounded-lg"
-                    initial={{ opacity: 0, y:
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.5 }}
+                  >
+                    <div className="grid gap-6 md:grid-cols-2">
+                      <SkillBar skill="Machine Learning & Deep Learning" level={95} />
+                      <SkillBar skill="Natural Language Processing" level={95} />
+                      <SkillBar skill="Programming Languages (Python, R, Java, TypeScript)" level={95} />
+                      <SkillBar skill="RAG" level={95} />
+                      <SkillBar skill="Custom LLMs & Inference" level={95} />
+                      <SkillBar skill="Knowledge Bases" level={95} />
+                      <SkillBar skill="Cloud Computing (AWS, Azure, GCP)" level={95} />
+                      <SkillBar skill="Distributed Information Retrieval Systems" level={95} />
+                                    </div>
+                                  </motion.div>
+                                </Section>
+                              </>
+                            } />
+                          </Routes>
+                        </main>
+                      </div>
+                    </Router>
+                  )
+                }
