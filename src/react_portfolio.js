@@ -310,4 +310,39 @@ export default function ReactPortfolio() {
                       <p className="text-gray-400 mb-2">Oct 2022 - Jan 2024</p>
                       <p className="mb-4">Loughborough University with SVGC Ltd</p>
                       <ul className="list-disc list-inside">
-                        <li>Developed and managed multiple AI-related projects in a Knowledge Transfer Partnership (KTP) in collaboration with SVGC Ltd</li
+                        <li>Developed and managed multiple AI-related projects in a Knowledge Transfer Partnership (KTP) in collaboration with SVGC Ltd</li>
+                        <li>Conducted thorough requirements analyses, user experience assessments, presented to stakeholders and researched to inform, develop and train NLP/ML solutions for government clients</li>
+                      </ul>
+                    </motion.div>
+                    <motion.div
+                      className="bg-gray-900 bg-opacity-50 p-6 rounded-lg"
+                      initial={{ opacity: 0, y: 20 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ duration: 0.5, delay: 0.6 }}
+                    >
+                      <h3 className="text-xl font-semibold mb-2">NLP Researcher</h3>
+                      <p className="text-gray-400 mb-2">Oct 2020 - Oct 2022</p>
+                      <p className="mb-4">Lancaster University</p>
+                      <ul className="list-disc list-inside">
+                        <li>Volunteered to contribute to Linguistics research groups, leading end-to-end development of NLU and NLP models for diverse funded projects, from research to evaluation</li>
+                      </ul>
+                    </motion.div>
+                  </div>
+                </Section>
+                <Section id="education" title="Education">
+                  <motion.div
+                    className="bg-gray-900 bg-opacity-50 p-6 rounded-lg"
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.5 }}
+                  >
+                    <h3 className="text-xl font-semibold mb-2">Master's in Computational Linguistics</h3>
+                    <p className="text-gray-400 mb-2">Graduated 2022</p>
+                    <p className="mb-4">Lancaster University</p>
+                    <p>Specialisation in: Natural Language Processing, Knowledge Graphs & Ontologies, Discourse Analysis, Corpus Linguistics</p>
+                  </motion.div>
+                </Section>
+                <Section id="skills" title="Skills">
+                  <motion.div
+                    className="bg-gray-900 bg-opacity-50 p-6 rounded-lg"
+                    initial={{ opacity: 0, y:
