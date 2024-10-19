@@ -1,5 +1,3 @@
-'use client'
-
 import { useState, useEffect, useCallback } from 'react'
 import { motion, useScroll, useTransform } from 'framer-motion'
 import Particles from "react-particles"
@@ -144,7 +142,7 @@ const SkillBar = ({ skill, level }: { skill: string; level: number }) => (
   </motion.div>
 )
 
-export default function Portfolio() {
+export default function ReactPortfolio() {
   const [activeSection, setActiveSection] = useState('')
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
@@ -349,4 +347,3 @@ export default function Portfolio() {
                     className="bg-gray-900 bg-opacity-50 p-6 rounded-lg"
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.
